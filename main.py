@@ -50,12 +50,16 @@ def main(page: ft.Page):
     gen1_29 = "Genesis 1:29\n\nAnd God said, 'See I have given you every herb that yields seed which is on the face of all the earth, and every tree whose fruit yields seed, to you it shall be for food."
     gen1_30 = "Genesis 1:30\n\n'Also to every beast of the earth, to every bird of the air, and to everything that creeps on the earth, in which there is life, I have given every green herb for food', and it was so."
     gen1_31 = "Genesis 1:31\n\nThen God saw everything that He made, and indeed it was very good.\nSo the evening and the morning were the sixth day."
+    
+    gen2_1 = "Genesis 2:1\n\nThus the heavens and the earth, and all the host of them, were finished."
 
     scripures = [
         gen1_1, gen1_2, gen1_3, gen1_4, gen1_5, gen1_6, gen1_7, gen1_8, gen1_9, gen1_10,
         gen1_11, gen1_12, gen1_13, gen1_14, gen1_15, gen1_16, gen1_17, gen1_18, gen1_19, gen1_20,
         gen1_21, gen1_22, gen1_23, gen1_24, gen1_25, gen1_26, gen1_27, gen1_28, gen1_29, gen1_30,
-        gen1_31
+        gen1_31,
+
+        gen2_1
     ]
     
     txt1 = ft.Text(size=12, font_family="DaddyTimeMono", weight="bold", color="#E481FA")
