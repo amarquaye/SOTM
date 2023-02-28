@@ -31,7 +31,7 @@ def main(page: ft.Page):
     gen1_10 = "Genesis 1:10\n\nAnd God called the dry land Earth, and all the gathering together of the waters He called Seas.\nAnd God saw that it was good."
     gen1_11 = "Genesis 1:11\n\nThen God said, 'Let the earth bring forth grass, the herb that yields seed, and the fruit tree that yields fruit according to its kind, whose seed is in itself, on the earth', and it was so."
     gen1_12 = "Genesis 1:12\n\nAnd the earth brought forth grass, the herb that yields seed according to its kind, and the tree that yields fruit, whose seed is in itself according to its kind.\nAnd God saw that it was good."
-    gen1_13 = "Genesis 1:13\n\nSo te evening and the morning were the third day."
+    gen1_13 = "Genesis 1:13\n\nSo the evening and the morning were the third day."
     gen1_14 = "Genesis 1:14\n\nThen God said, 'Let there be lights in the firmament of the heavens to divide the day from the night, and let them be for signs and seasons, and for days and years'."
     gen1_15 = "Genesis 1:15\n\n'and let them be for lights in the firmament of the heavens to give light on the earth', and it was so."
     gen1_16 = "Genesis 1:16\n\nThen God made two great lights: the greater light to rule the day and the lesser light to rule the night. He made the stars also."
