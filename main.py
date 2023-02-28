@@ -7,7 +7,8 @@ def main(page: ft.Page):
     #Page settings
     page.title = "SOTM"
     page.theme_mode = "dark"
-    page.bgcolor = "#daa520"
+    page.bgcolor = "#ddc8a9"
+    #initial bgcolor == #daa520
     #initial bgcolor === #ffd700
     page.padding = 30
     page.auto_scroll = True
@@ -52,14 +53,29 @@ def main(page: ft.Page):
     gen1_31 = "Genesis 1:31\n\nThen God saw everything that He made, and indeed it was very good.\nSo the evening and the morning were the sixth day."
     
     gen2_1 = "Genesis 2:1\n\nThus the heavens and the earth, and all the host of them, were finished."
+    gen2_2 = "Genesis 2:2\n\nAnd on the seventh day God ended His work which He had done, and He rested on the seventh day from all His work which He had done."
+    gen2_3 = "Genesis 2:3\n\nThen God blessed the seventh day and sanctified it, because in it He rested from all His work which God created and made."
+    gen2_4 = "Genesis 2:4\n\nThis is the history of the heavens and the earth when thry were created, in the day that the LORD God made the earth and the heavens."
+    gen2_5 = "Genesis 2;5\n\nbefore any plant of the field was in the earth and before any herb of the field had grown. For the LORD God had not caused it to rain on the earth, and there was no man to till the ground."
+    gen2_6 = "Genesis 2:6\n\nbut a mist went up from the earth and watered the whole face of th ground."
+    gen2_7 = "Genesis 2:7\n\nAnd the LORD God formed man of the dust of the ground, and breathed into his nostrils the breathe of life, and man became a living being."
+    gen2_8 = "Genesis 2:8\n\nThe LORD God planted a garden eastward of Eden, and there He put the man whom He had formed."
+    gen2_9 = "Genesis 2:9\n\nAnd out of the ground the LORD God made every tree grow that is pleasant to the sight and good for food.\nThe tree of life was also in the midst of the garden, and the tree of the knowledge of good and evil."
+    gen2_10 = "Genesis 2:10\n\nNow a river went out of Eden to water the garden, and from there it parted and became four riverheads."
+    gen2_11 = "Genesis 2:11\n\nThe name of the first is Pishon, it is the one which encompasses the whole land of Havilah, where there is gold."
+    gen2_12 = "Genesis 2:12\n\nAnd the gold of that land is good.\nBdellium and onyx stone are there."
+    gen2_13 = "Genesis 2:13\n\nThe name of the second river is Gilhon, it is the one which encompasses the land of Cush."
+    gen2_14 = "Genesis 2:14\n\nThe name of the third river is Hiddekel, it is the one which goes toward the east of Assyria.\nThe fourth river is the Euphrates."
+    gen2_15 = "Genesis 2:15\n\nThen the LORD God took the man and put him in te garden of Eden to tend and keep it."
 
     scripures = [
         gen1_1, gen1_2, gen1_3, gen1_4, gen1_5, gen1_6, gen1_7, gen1_8, gen1_9, gen1_10,
         gen1_11, gen1_12, gen1_13, gen1_14, gen1_15, gen1_16, gen1_17, gen1_18, gen1_19, gen1_20,
         gen1_21, gen1_22, gen1_23, gen1_24, gen1_25, gen1_26, gen1_27, gen1_28, gen1_29, gen1_30,
-        gen1_31,
+        gen1_31, 
 
-        gen2_1
+        gen2_1, gen2_2, gen2_3, gen2_4, gen2_5, gen2_6, gen2_7, gen2_8, gen2_9, gen2_10,
+        gen2_11, gen2_12, gen2_13, gen2_14, gen2_15
     ]
     
     txt1 = ft.Text(size=12, font_family="DaddyTimeMono", weight="bold", color="#E481FA")
