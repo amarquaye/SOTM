@@ -67,6 +67,7 @@ def main(page: ft.Page):
     gen2_13 = "Genesis 2:13\n\nThe name of the second river is Gilhon, it is the one which encompasses the land of Cush."
     gen2_14 = "Genesis 2:14\n\nThe name of the third river is Hiddekel, it is the one which goes toward the east of Assyria.\nThe fourth river is the Euphrates."
     gen2_15 = "Genesis 2:15\n\nThen the LORD God took the man and put him in te garden of Eden to tend and keep it."
+    gen2_16 = "Genesis 2:16\n\nAnd the LORD God commanded the man, saying, 'Of every tree of the garden you may freely eat"
 
     scripures = [
         gen1_1, gen1_2, gen1_3, gen1_4, gen1_5, gen1_6, gen1_7, gen1_8, gen1_9, gen1_10,
@@ -75,7 +76,7 @@ def main(page: ft.Page):
         gen1_31, 
 
         gen2_1, gen2_2, gen2_3, gen2_4, gen2_5, gen2_6, gen2_7, gen2_8, gen2_9, gen2_10,
-        gen2_11, gen2_12, gen2_13, gen2_14, gen2_15
+        gen2_11, gen2_12, gen2_13, gen2_14, gen2_15, gen2_16
     ]
     
     txt1 = ft.Text(size=12, font_family="DaddyTimeMono", weight="bold", color="#E481FA")
