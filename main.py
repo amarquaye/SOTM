@@ -68,6 +68,15 @@ def main(page: ft.Page):
     gen2_14 = "Genesis 2:14\n\nThe name of the third river is Hiddekel, it is the one which goes toward the east of Assyria.\nThe fourth river is the Euphrates."
     gen2_15 = "Genesis 2:15\n\nThen the LORD God took the man and put him in te garden of Eden to tend and keep it."
     gen2_16 = "Genesis 2:16\n\nAnd the LORD God commanded the man, saying, 'Of every tree of the garden you may freely eat"
+    gen2_17 = "Genesis 2:17\n\nbut of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die."
+    gen2_18 = "Genesis 2:18\n\nAnd the LORD said, 'It is not good that man should be alone, I will make him a helper comparable to him'."
+    gen2_19 = "Genesis 2:19\n\nOut of the ground the LORD God formed every beast of the field and every bird of the air, and brought them to Adam to see what he would call them.\nAnd whatever Adam called each living creature, that was its name."
+    gen2_20 = "Genesis 2:20\n\nSo Adam gave names to all cattle, to the birds of the air, and to every beast of the field.\nBut for Adam there was not a found helper comparable to him."
+    gen2_21 = "Genesis 2:21\n\nAnd the LORD God caused a deep sleep to fall on Adam, and he slept, and He took one of his ribs, and closed up the flesh in its place."
+    gen2_22 = "Genesis 2:22\n\nThen the rib which the LORD God taken from man He made a woman and He brought her to the man."  
+    gen2_23 = "Genesis 2:23\n\nAnd Adam said:\n'This is now bone of my bones\nAnd flesh of my flesh\nShe shall be called Woman\nBecause she was taken out of Man.'"
+    gen2_24 = "Genesis 2:24\n\nTherefore a man shall leave his father and mother and be joined to his wife, and they shall become one flesh."
+    gen2_25 = "Genesis 2:25\n\nAnd they were both naked, the man and his wife, and were not ashamed."
 
     scripures = [
         gen1_1, gen1_2, gen1_3, gen1_4, gen1_5, gen1_6, gen1_7, gen1_8, gen1_9, gen1_10,
@@ -76,7 +85,8 @@ def main(page: ft.Page):
         gen1_31, 
 
         gen2_1, gen2_2, gen2_3, gen2_4, gen2_5, gen2_6, gen2_7, gen2_8, gen2_9, gen2_10,
-        gen2_11, gen2_12, gen2_13, gen2_14, gen2_15, gen2_16
+        gen2_11, gen2_12, gen2_13, gen2_14, gen2_15, gen2_16, gen2_17, gen2_18, gen2_19, gen2_20,
+        gen2_21, gen2_22, gen2_23, gen2_24, 25
     ]
     
     txt1 = ft.Text(size=12, font_family="DaddyTimeMono", weight="bold", color="#E481FA")
