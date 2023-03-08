@@ -79,6 +79,15 @@ def main(page: ft.Page):
     gen2_25 = "Genesis 2:25\n\nAnd they were both naked, the man and his wife, and were not ashamed."
     
     gen3_1 = "Genesis 3:1\n\nNow the serpent was more cunning than any beast of the field which the LORD God had made.\nAnd he said to the woman, Has God indeed said, 'You shall not eat of every tree of the garden?'"
+    gen3_2 = "Genesis 3:2\n\nAnd the woman said to the serpent, 'We may eat the fruit of the trees of the garden';"
+    gen3_3 = "Genesis 3:3\n\n'but of the fruit of the tree which is in the midst of the garden, God said, You shall not eat it, nor shall you touch it, lest you die.'"
+    gen3_4 = "Genesis 3:4\n\nAnd the serpent said to the woman, 'You will not surely die'."
+    gen3_5 = "Genesis 3:5\n\n'For God knows that in the day you eat of it your eyes will be opened, and you will be like God, knowing good and evil'."
+    gen3_6 = "Genesis 3:6\n\nSo then the woman saw that the tree was good for food, that it was pleasant to the eyes, and the tree desirable to make one wise, she took of its fruit and ate.\nShe also gave to her husband with her, and he ate."
+    gen3_7 = "Genesis 3:7\n\nThen the eyes of both of them were opened, and they saw that they were naked, and they sewed fig leaves together and made themselves coverings."
+    gen3_8 = "Genesis 3:8\n\nAnd they heard the sound of the LORD God walking in the garden in the cool of the day, and Adam and his wife hid themselves from the presence of the LORD God among the trees of the garden."
+    gen3_9 = "Genesis 3:9\n\nThen God called Adam and said to him, 'Where are you?'."
+    gen3_10 = "Genesis 3:10\n\nSo he said, 'I heard Your voice in the garden, and I was afraid because I was naked, and I hid myself'."
 
     scripures = [
         gen1_1, gen1_2, gen1_3, gen1_4, gen1_5, gen1_6, gen1_7, gen1_8, gen1_9, gen1_10,
@@ -90,7 +99,7 @@ def main(page: ft.Page):
         gen2_11, gen2_12, gen2_13, gen2_14, gen2_15, gen2_16, gen2_17, gen2_18, gen2_19, gen2_20,
         gen2_21, gen2_22, gen2_23, gen2_24, gen2_25,
 
-        gen3_1
+        gen3_1, gen3_2, gen3_3, gen3_4, gen3_5, gen3_6, gen3_7, gen3_8, gen3_9, gen3_10
     ]
     
     txt1 = ft.Text(size=12, font_family="DaddyTimeMono", weight="bold", color="#E481FA")
