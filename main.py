@@ -78,7 +78,7 @@ def main(page: ft.Page):
     gen2_24 = "Genesis 2:24\n\nTherefore a man shall leave his father and mother and be joined to his wife, and they shall become one flesh."
     gen2_25 = "Genesis 2:25\n\nAnd they were both naked, the man and his wife, and were not ashamed."
     
-    gen2_1 = "Genesis 3:1\n\nNow the serpent was more cunning than any beast of the field which the LORD God had made.\nAnd he said to the woman, Has God indeed said, 'You shall not eat of every tree of the garden?'"
+    gen3_1 = "Genesis 3:1\n\nNow the serpent was more cunning than any beast of the field which the LORD God had made.\nAnd he said to the woman, Has God indeed said, 'You shall not eat of every tree of the garden?'"
 
     scripures = [
         gen1_1, gen1_2, gen1_3, gen1_4, gen1_5, gen1_6, gen1_7, gen1_8, gen1_9, gen1_10,
@@ -90,7 +90,7 @@ def main(page: ft.Page):
         gen2_11, gen2_12, gen2_13, gen2_14, gen2_15, gen2_16, gen2_17, gen2_18, gen2_19, gen2_20,
         gen2_21, gen2_22, gen2_23, gen2_24, gen2_25,
 
-        gen1_3
+        gen3_1
     ]
     
     txt1 = ft.Text(size=12, font_family="DaddyTimeMono", weight="bold", color="#E481FA")
